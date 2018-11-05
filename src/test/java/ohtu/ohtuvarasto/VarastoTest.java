@@ -137,7 +137,7 @@ public class VarastoTest {
   @Test
   public void eiVoiOttaaYliSaldon() {
     varasto.lisaaVarastoon(3);
-    assertEquals(3, varasto.otaVarastosta(4), vertailuTarkkuus);
+    assertEquals(0, varasto.otaVarastosta(4), vertailuTarkkuus);
   }
 
   // toString
